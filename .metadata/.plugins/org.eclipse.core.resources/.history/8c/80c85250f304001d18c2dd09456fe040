@@ -1,0 +1,17 @@
+package s00__assignmentModual2;
+
+
+
+public class QES__39 {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> color = new ArrayList<String>();
+        color.add("Green");
+        color.add("Yellow");
+        color.add("Black");
+        color.add("Red");
+        System.out.print(color);
+	}
+
+}

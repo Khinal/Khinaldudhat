@@ -1,0 +1,23 @@
+package s__Keywords;
+
+class Sample
+{
+	static
+	{
+		System.out.println("calling sample class static block......");
+	}
+}
+
+
+
+
+
+public class KeyWords {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Running main mathod......");
+	}
+
+
+}

@@ -1,0 +1,19 @@
+package s00__assignmentModual2;
+
+class one implements Runnable{
+	public void run()
+	{
+		System.out.println("thred is running.....");
+	}
+	
+}
+
+public class QES__32 {
+
+	public static void main(String[] args) {
+		
+		one o1 = new one();
+		o1.run();
+		
+	}
+}

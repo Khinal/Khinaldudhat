@@ -1,0 +1,26 @@
+package s00__assignmentModual2;
+
+import java.util.Arrays;
+
+public class QES__42 {
+	
+	public static void main(String[] args) {
+		
+		int [] arry = {1,2,3,4,5,6,7,8,9,10};
+		
+		int IndexPosition = 2;
+		int newValue = 5;
+		
+		System.out.println("Orignal Array :"+Arrays.toString(arry));
+		
+		for(int i=arry.length-1; i>2; i--) {
+			
+			arry[i] = arry[i-1];
+		}
+		
+		arry[IndexPosition] = newValue;
+		System.out.println("New Array :"+Arrays.toString(arry));
+		
+		
+	}
+}

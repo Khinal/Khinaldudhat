@@ -1,0 +1,37 @@
+package OOPS;
+
+class Methoddemo
+{
+	public void display() {
+		
+		System.out.println("runing dispaly method....");
+	}
+	
+	public void add(int a, int b) {
+		
+		int result = a+b;
+		System.out.println("Result is : "+result);
+	}
+	
+	public int square (int a)
+	{
+		int square = a*a;
+		return square;
+	}
+
+	public class MethodManipulation {
+	
+	
+		public static void main(String[] args) {
+		
+		Methoddemo md = new Methoddemo();
+		md.display();
+		md.add(10, 20);
+		int r= md.square(5);
+		System.out.print(r);
+		}
+	
+
+}
+     }
+

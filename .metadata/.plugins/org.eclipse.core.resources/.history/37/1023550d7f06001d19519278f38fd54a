@@ -1,0 +1,36 @@
+package s00__assignmentModual2;
+
+import java.util.Arrays;
+
+public class QES__42 {
+	
+	public static void main(String[] args) {
+		
+		int n = 10;
+		int i;
+		
+		
+		int []  array = {1,2,3,4,5,6,7,8,9,10};
+		
+		 System.out.println("Initial Array:\n" + Arrays.toString(array));
+
+
+		
+		int x = 50;
+		int pos = 5;
+		
+		array = insertX(n, array, x, pos);
+		
+		 System.out.println("\nArray with " + x + " inserted at position " + pos + ": n/" + Arrays.toString(array));
+	}
+
+	private static int[] insertX(int n, int[] array, int x, int pos) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+	
+
+}

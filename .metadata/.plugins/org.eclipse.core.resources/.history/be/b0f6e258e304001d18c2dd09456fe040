@@ -1,0 +1,17 @@
+package s00__assignmentModual2;
+
+abstract class Marks{
+	
+	abstract double getPercentage();
+}
+
+
+public class QES__18 {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

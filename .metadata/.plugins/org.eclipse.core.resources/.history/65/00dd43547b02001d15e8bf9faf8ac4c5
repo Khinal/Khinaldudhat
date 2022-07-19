@@ -1,0 +1,14 @@
+package string;
+
+
+public class Basicdemostring {
+
+	public static void main(String[] args) {
+		
+		String str = "Hello java";
+		//String str1 = new String("Hello php");
+		String s = str.concat(str1);
+		System.out.println(s);
+		
+	}
+}

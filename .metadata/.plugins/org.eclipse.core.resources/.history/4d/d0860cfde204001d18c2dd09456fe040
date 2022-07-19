@@ -1,0 +1,58 @@
+package s00__assignmentModual2;
+
+abstract class Marks{
+	
+	abstract int getPercentage();
+}
+
+class A extends Marks{
+	
+	int sub1 ,sub2 , sub3;
+	int per = 0;
+	
+	A(int a , int b , int c){
+		sub1 = a;
+		sub2 = b;
+		sub3 = c;}
+	
+	@Override
+	public int getPercentage() {
+		per = (sub1+sub2+sub3)/300*100;
+		return per ;
+	
+}
+}
+
+class B extends Marks{
+	
+	int sub1 , sub2 , sub3 , sub4;
+	int per = 0;
+	
+	B(int a , int b , int c , int d){
+		sub1 = a;
+		sub2 = b;
+		sub3 = c;
+		sub4 = d;
+	}
+	@Override
+	public int getPercentage() {
+		per = (sub1+sub2+sub3+sub4)/400*100;
+		return per;
+		
+	}
+}
+
+
+public class QES__18 {
+	
+	public static void main(String[] args) {
+		
+		A object = new A( 70,75,80);
+		System.out.println("student 1 per :"+object.getPercentage());
+		
+		B object1 = new B(70,75,80,85);
+		System.out.println("student 2 per :"+object1.getPercentage());
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package s00__assignmentModual2;
+
+public class QES__42 {
+	
+	public static void main(String[] args) {
+		
+		int []  array = {1,2,3,4,5,6,7,8,9,10};
+		
+		int element = 50;
+		int position = 5;
+		
+		addElement(array, element, position);
+	}
+
+	private static void addElement(int[] array, int element, int position) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

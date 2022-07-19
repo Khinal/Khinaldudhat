@@ -1,0 +1,20 @@
+package s__Keywords;
+
+class Sample
+{
+	
+}
+
+
+
+
+
+public class KeyWords {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Running main mathod......");
+	}
+
+
+}

@@ -1,0 +1,39 @@
+package s00__AssignmentModual2;
+
+public class QES__21 {
+	
+	public static void main(String[] aregs) {
+		
+		int i;
+		float mark = 0  , sum =0 , avg;
+		System.out.println("Enter marks obtaind in 5 subjects: ");
+		
+		for(i=0; i<5; i++)
+		{
+			System.out.println(mark);
+		}
+		avg = sum/5;
+		System.out.println("Gread = ");
+		
+		if(avg>=91 && avg<=100)
+			System.out.println("AA");
+		
+		else if(avg>=81 && avg<91)
+			System.out.println("AB");
+		
+		else if(avg>=71 && avg<81)
+			System.out.println("BB");
+		
+		else if(avg>=61 && avg<71)
+			System.out.println("BC");
+		
+		else if(avg>=41 && avg<51)
+			System.out.println("CD");
+		
+		else if(avg>=51 && avg<41)
+			System.out.println("DD");
+		if
+		(avg<=40);
+			System.out.println("fail");
+	}
+}

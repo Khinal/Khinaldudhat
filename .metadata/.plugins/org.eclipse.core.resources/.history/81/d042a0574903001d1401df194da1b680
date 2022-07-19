@@ -1,0 +1,20 @@
+package S00__AssignmentModual2;
+
+import java.util.Scanner;
+
+public class QES__28 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter value for less than 10");
+		int a = sc.nextInt();
+		
+		System.out.println("enter value for grater than 40");
+		int b = sc.nextInt();
+		
+		
+	}
+}
+
+

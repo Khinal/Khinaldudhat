@@ -1,0 +1,18 @@
+package s00__assignmentModual2;
+
+class Two extends Thread{
+	
+	public void run()
+	{
+		System.out.println("Thread method running.....");
+	}
+}
+public class QES__33 {
+	
+	public static void main(String[] args) {
+		
+		Two tw = new Two();
+		tw.run();
+	}
+
+}

@@ -1,0 +1,10 @@
+package S00__AssignmentModual2;
+
+public class QES__24 {
+
+	int a = 50;
+	int b = 20;
+	{
+		System.out.println(a+b);
+	}
+}

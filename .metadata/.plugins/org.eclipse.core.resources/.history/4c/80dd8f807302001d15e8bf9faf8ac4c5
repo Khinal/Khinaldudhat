@@ -1,0 +1,31 @@
+package KeyWORDS;
+
+class car
+{
+	int a = 50;
+	public void run()
+	{
+		System.out.println("Running car method.......");
+	}
+}
+class bike extends car
+{
+	int a;
+	bike(int a)
+	{
+		this.a=a;
+	}
+	public void run()
+	{
+		
+	}
+}
+
+public class Thisdemo {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

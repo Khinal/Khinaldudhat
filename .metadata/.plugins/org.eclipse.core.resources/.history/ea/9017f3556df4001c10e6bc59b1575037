@@ -1,0 +1,25 @@
+package forloop;
+
+public class print4 {
+
+public static void main(String[] args) {
+		
+		int lines = 5;
+		var starCount = 1;
+		var spaceCount = lines - 1;
+		
+		for(int i=1; i<=5; i++) {
+		
+		for(int j=1; j<=5-1; j++) {
+		
+			System.out.print(" ");
+		}
+			for (int j=1; j<=i; j++) {
+				System.out.println("*");
+		}
+	        System.out.println();
+			starCount++;
+			spaceCount++;
+}
+}
+}

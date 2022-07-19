@@ -1,0 +1,43 @@
+package AssignmentModual2;
+
+ class Rectangle {
+	 
+	 private double length;
+	 private double breadth;
+	 
+	 public Rectangle(double length , double breadth) {
+		 
+		 this.length = length;
+		 this.breadth = breadth;
+	 }
+	 
+	 public void area() {
+		 
+		 System.out.println(breadth * length);
+	 }
+	 public void perimeter() {
+		 
+		 System.out.println(2*(breadth+length));
+	 }
+	 }
+	class Square extends Rectangle {
+		public Square (double s) {
+			super(s,s);
+		}
+	}
+
+
+public class QES13__primeterofractangleandsquare {
+	
+	public static void main(String[] args) {
+		
+		Rectangle r = new Rectangle(10,5);
+		Rectangle Square = new Square(10);
+		r.area();
+		r.perimeter();
+		System.out.println();
+		Square.area();
+		Square.perimeter();
+	}
+
+}

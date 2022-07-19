@@ -1,0 +1,18 @@
+package KeyWORDS;
+
+class BCD
+{
+	static int count = 0;
+	BCD()
+	{
+		System.out.println("object created :"+count);
+	}
+}
+
+public class Staticdemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

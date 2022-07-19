@@ -1,0 +1,20 @@
+package string;
+
+
+public class Basicdemostring {
+
+	public static void main(String[] args) {
+		
+		//String str = "Hello java";
+		//String str1 = new String("Hello php");
+		//String s = str.concat("Hello php");
+		//System.out.println(s);
+		
+		String s1 = "java";
+		String s2 = "php";
+		String s3 = "java";
+		System.out.println(s1.equals(s2));
+		System.out.println(s1.equals(s3));
+		System.out.println(s1==s3);
+	}
+}

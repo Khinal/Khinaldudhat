@@ -1,0 +1,12 @@
+package KeyWORDS;
+
+
+public class StaticBlock {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Running  main method.....");
+		System.out.println("Calling non-static method.....");
+	}
+
+}

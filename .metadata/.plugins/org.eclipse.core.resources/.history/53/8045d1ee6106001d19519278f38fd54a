@@ -1,0 +1,15 @@
+package string;
+
+public class Anargam {
+	
+	Anargam(String str1 , String str2) {
+		
+		String s1 = str1.replaceAll(str1, str2);
+		String s2 = str2.replaceAll(str2, str1);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package KeyWORDS;
+
+
+public class StaticBlock {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("calling main method.....");
+	}
+
+}

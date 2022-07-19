@@ -1,0 +1,26 @@
+package S00__AssignmentModual2;
+
+interface I1
+{
+	public void run();
+}
+class In
+{
+	
+}
+class Im extends In implements I1
+{
+	@Override
+	public void run()
+	{
+		System.out.println("Running method..........");
+	}
+}
+
+public class QES__32 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

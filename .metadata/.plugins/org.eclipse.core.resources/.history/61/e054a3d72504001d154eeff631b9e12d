@@ -1,0 +1,23 @@
+package s00__assignmentModual2;
+
+public class Member1 {
+	private String name;
+    private int age;
+    private String phoneNumber;
+    private String address;
+    private double salary;
+    
+    public Member1
+    (String name, int age, String phoneNumber, String address, double salary)
+{
+	
+}
+}
+public class QES__12 {
+	
+	public static void main(String[] args) {
+		
+	
+}
+
+}

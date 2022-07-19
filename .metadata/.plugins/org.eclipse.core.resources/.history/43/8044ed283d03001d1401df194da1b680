@@ -1,0 +1,36 @@
+package S00__AssignmentModual2;
+
+class Shape{
+	public void printshape() {
+		System.out.println("This is shape");
+	}
+}
+
+class Rectangle extends Shape{
+	public void printrectangle() {
+		System.out.println("This is rectanguler shape");
+	}
+}
+
+class circle extends Shape{
+	public void printcircle() {
+		System.out.println("This is  circuler shape");
+	}
+}
+
+class Square extends Rectangle{
+	public void printSquare() {
+		System.out.println("Square is rectangle");
+	}
+}
+public class QES__22 {
+	
+	public static void main(String[] args) {
+		
+		Square s = new Square();
+		s.printshape();
+		s.printrectangle();
+		
+	}
+
+}

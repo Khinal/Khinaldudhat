@@ -1,0 +1,17 @@
+package s00__assignmentModual2;
+
+
+
+public class QES__39 {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> arraylist = new ArrayList<>(); 
+		arraylist.add("Grren");
+		arraylist.add("blue");
+		arraylist.add("red");
+		System.out.println(arraylist);
+		
+	}
+
+}

@@ -1,0 +1,52 @@
+package s00__assignmentModual2;
+
+class Member{
+	
+	String name;
+	int  age;
+	String number;
+	String address;
+	int Salary;
+	
+	public void printsalary() {
+		
+		System.out.println(Salary);
+	}
+}
+
+class Employee extends Member{
+	
+	public void Spacilization()
+	{
+}
+}
+
+class Manager extends Member{
+	
+	public void departmanet() {
+		
+	}
+}
+
+public class QES__12 {
+	
+	public static void main(String[] args) {
+		
+		Employee e = new Employee();
+		e.name = "khinal";
+		e.age = 24;
+		e.number = "8758212649";
+		e.address = "A-1004 river kent app. motavarachha";
+		e.Salary = 10000;
+		//e.Spacilization = "Good in writting skils";
+		
+		Manager m = new Manager();
+		m.name = "Hardik";
+		m.age  = 26;
+		m.number = "9328801240";
+		m.address = "B-62 prabhunager mahadevchock";
+		m.Salary = 20000;
+		//m.department = "mangement";
+}
+
+}

@@ -1,0 +1,45 @@
+package s00__assignmentModual2;
+
+abstract class Shape2{
+
+	public abstract void RectangleArea1(double lentgh , double width);
+	public abstract void SquareArea1(double side);
+	public abstract void CircleArea1 (double redius);
+
+}
+
+
+public class Area extends Shape1{
+
+    public void RectangleArea1(double lenght, double width) {
+        System.out.printf("Rectangle area = %.2f", lenght*width);
+        System.out.println("");
+    }
+
+    public void SquareArea1(double side) {
+        System.out.printf("Square area = %.2f",(side,2));
+        System.out.println("");
+    }
+
+    public void CircleArea1(double radius) {
+        System.out.printf("Circle area = %.2f",(radius, 2));
+        System.out.println("");
+    }
+}
+
+public class QES__20 {
+	
+	public static void main(String[] args) {
+		
+			Area a = new Area();
+			a.RectangleArea1(10, 30);
+			a.SquareArea1(30);
+			a.CircleArea1(40);
+			
+			
+		}
+		
+		
+	}
+
+

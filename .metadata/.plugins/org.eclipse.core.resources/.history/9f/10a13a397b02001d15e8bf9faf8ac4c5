@@ -1,0 +1,12 @@
+package string;
+
+
+public class Basicdemostring {
+
+	public static void main(String[] args) {
+		
+		String str = "Hello java";
+		String str1 = new String("Hello java");
+		
+	}
+}

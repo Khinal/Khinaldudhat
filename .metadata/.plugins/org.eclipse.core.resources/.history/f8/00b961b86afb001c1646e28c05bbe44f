@@ -1,0 +1,18 @@
+package OOPS;
+
+class Methoddemo {  
+     
+   public void display ()
+   {
+	System.out.println("running display method.......");
+   }
+
+
+public class MethodMainupuation001 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+}

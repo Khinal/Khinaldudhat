@@ -1,0 +1,49 @@
+package s__Keywords;
+
+class Sample
+{
+	static
+	{
+		System.out.println("calling sample class static block......");
+	}
+	public demo()
+	{
+		System.out.println("demo constructor calling.....");
+	}
+	
+	static class mydemo
+	{
+		public static void display()
+		{
+			System.out.println("Running display metho......");
+		}
+		
+		public void run()
+		{
+			System.out.println("Running run method......");
+		}
+	}
+}
+
+public class KeyWords {
+	
+	static {
+		
+		System.out.println("calling sample method......");
+	}
+	
+	public static void main(String[] args) {
+		
+		demo d = new demo();
+		
+		System.out.println("Running main mathod......");
+
+		{
+		System.out.println("calling not-static block.....");
+	}
+	
+	 demo.mydemo dl = new demo.mydemo();
+	 dl.run();
+	}
+
+}

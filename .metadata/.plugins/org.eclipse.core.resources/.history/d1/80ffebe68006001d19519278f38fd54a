@@ -1,0 +1,21 @@
+package s00__assignmentModual2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class QES__43 {
+	
+	public static void main(String[] args) {
+		
+		 List<String> list = new ArrayList<>();
+	      list.add("Zara");
+	      list.add("Mahnaz");
+	      list.add("Ayan");
+	      System.out.println("List: " + list);
+	      String student = "Ayan";
+	      String missingStudent = "Aman";
+	      System.out.println("Ayan is present at: " + list.indexOf(student));
+	      System.out.println("Aman index: " + list.indexOf(missingStudent));
+	}
+
+}
